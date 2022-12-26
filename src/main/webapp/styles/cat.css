@@ -1,0 +1,60 @@
+.delete{
+    background-color: darkorange;color: antiquewhite;width: 200px;height: 30px
+}
+.buy{
+    background-color: darkorange;color: antiquewhite;width: 200px;height: 30px;
+    margin-top: 10px;
+}
+.buy:hover{
+    background-color: darkorange;color: antiquewhite;width: 200px;height: 30px;
+    margin-top: 10px;
+}
+
+label{
+    color: saddlebrown;
+}
+h3{
+    color: saddlebrown;
+}
+
+p{
+    color: saddlebrown;
+}
+h1{
+    color: saddlebrown;
+}
+
+.redact{
+    color: white;float: left;
+}
+h2{
+    color: antiquewhite;
+    position: absolute; top: 150px
+}
+.inf{
+    position: absolute;
+    z-index:1;
+    overflow:hidden;
+    color: saddlebrown;
+}
+.inf:before{
+    z-index:-1;
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    content: url('/resources/Back.png');
+    opacity:0.5;
+}
+.forma{
+    color: coral;
+}
+img{
+    height: 300px;
+    width: auto;
+}
+.catWrapper{
+    margin: 20px;
+    color: saddlebrown;
+}

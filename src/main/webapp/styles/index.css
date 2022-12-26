@@ -1,0 +1,94 @@
+.logIn{
+    position: absolute;
+    right: 10px;
+    background-color: orange;
+    color: antiquewhite;
+    border-radius: 15px;
+    margin-left: 1300px;
+}
+
+.logIn:hover{
+    position: absolute;
+    right: 10px;
+    background-color: darkorange;
+    color: antiquewhite;
+    border-radius: 15px;
+    margin-left: 1300px;
+}
+.catImage{
+    object-fit: cover;width: 200px;height: 200px; border-width:0px;border-color: rgb(190,190,190);border-style: solid;border-radius: 18px;
+}
+
+.filter{
+    align-content: center;background-color: gray;color: antiquewhite; margin-top: 10px;width: 150px;height: 30px;
+}
+
+.buttonImage{
+    align-content: center;background-color: white;border-width: 0px;color: antiquewhite;
+}
+
+p{
+    margin: 0px;
+}
+
+.basket{
+    position: absolute;
+    right: 10px;
+    margin-left: 1300px;
+    margin-top: 25px
+}
+.catshop{
+    background-color: peachpuff;width: 100%;height: 30px
+}
+.header{
+    width: 100%; height: 55px;margin-top: 0px; border-width:1px;
+    border-color: rgb(190,190,190);
+    border-style: solid; box-shadow: 0px 5px 10px 0px rgba(100, 100, 100, 0.5);
+}
+.catWrapper{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+.cat{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-width:1px;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+    border-radius: 18px;
+}
+.buy{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-content: center;background-color: gray;color: antiquewhite;width: 200px;height: 30px;
+    margin-top: 10px;
+}
+
+.catDiv{
+    width: 80%; height: 100%; float: left
+}
+
+.filterDiv{
+    right: 0px;
+    top: 70px;
+    position: absolute;
+    width: 20%;
+    height: 100%
+}
+.container{
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+}
+.container:before{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url('/resources/Back.png');
+    opacity:0.5;
+}

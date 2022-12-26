@@ -1,0 +1,88 @@
+.choice{
+    width: 300px;
+    border: none;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: darkorange;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buy{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-content: center;background-color: darkorange;color: black;width: 200px;height: 30px;
+    margin-top: 10px;
+}
+
+.buy:hover{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-content: center;background-color: darkorange;color: saddlebrown;width: 200px;height: 30px;
+    margin-top: 10px;
+}
+
+.imageButton{
+    border: none;background-color: white
+}
+
+
+.choice:hover{
+    width: 300px;
+    border: none;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.cat{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-width:1px;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+}
+
+.catWrapper{
+    float: left;
+    width: 100px;
+    height: 140px;
+}
+
+.catshopDiv{
+    width: 100%;height: 30px; background-color: coral;
+}
+
+.catshopWrite{
+    margin: 0px; color: white
+}
+
+.menu{
+    background-color: peachpuff;height: 1000px;width: 300px; margin: 0px;float: left
+}
+
+.avatar{
+    margin-left: 10px;margin-top: 10px;float: left;height: 50px; width: 50px
+}
+
+.image1{
+    object-fit: cover;width: 100px;height: 100px; border-width:0px;border-color: rgb(190,190,190);border-style: solid;border-radius: 18px;
+}
+.container{
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+}
+.container:before{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url('/resources/Back.png');
+    opacity:0.6;
+}
